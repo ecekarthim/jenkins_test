@@ -38,7 +38,7 @@ pipeline {
                 label 'windows'
             }
             steps {
-                sh "echo testing"
+                bat "echo testing"
             }
         }
     }
